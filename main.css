@@ -1,0 +1,109 @@
+html body {
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  height: 100%;
+}
+hr {
+border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.top-bg {
+  position: absolute;
+  z-index: -3;
+  margin-bottom: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-bg {
+    width: 100%;
+    margin-bottom: 25%;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 23%;
+  margin: auto;
+  margin-top: 12%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: -2;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+  }
+}
+
+.card-background {
+  z-index: -1;
+  position: relative;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-background {
+    width: 100%;
+  }
+}
+
+.victor {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  z-index: 1;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .victor {
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .victor {
+    margin-left: 47%;
+    margin-top: 6%;
+  }
+}
+
+.name {
+  margin-top: 15%;
+  margin-bottom: 1%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-img {
+  margin-left: 70%;
+  width: 30%;
+  margin-top: 0%;
+  position: relative;
+}
